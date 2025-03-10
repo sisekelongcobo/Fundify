@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/.git**": true,
+    "**/**.prettier**": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/Properties": true,
+    "**/Fundify-API.csproj": true,
+    "**/Fundify-API.http": true,
+    "**/Fundify-API.sln": true,
+    "**/appsettings**": true,
+    "**/.editor**": true
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  }
+}

@@ -1,0 +1,22 @@
+# Environment & Config Files
+.env*
+appsettings*.json
+
+# .NET Build Files
+bin/
+obj/
+Migrations/
+*.db
+*.db-shm
+*.db-wal
+
+
+# Logs & Debugging
+logs/
+*.log
+*.log.*
+*.nlog
+
+# Dependency Caches
+packages/
+nuget_cache/

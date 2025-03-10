@@ -1,0 +1,48 @@
+# .editorconfig
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+tab_width = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.cs]
+# C# specific settings
+dotnet_sort_system_directives_first = true
+dotnet_style_qualification_for_field = true
+dotnet_style_qualification_for_property = true
+dotnet_style_qualification_for_method = true
+dotnet_style_qualification_for_event = true
+
+# Formatting rules
+csharp_new_line_before_open_brace = false
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
+csharp_new_line_before_members_in_object_initializers = true
+csharp_new_line_before_members_in_anonymous_types = true
+csharp_new_line_between_query_expression_clauses = true
+
+# Print width (max line length)
+dotnet_diagnostic.CA1802.severity = none # Disable line length warnings
+dotnet_diagnostic.CA1802.max_line_length = 100
+
+# Trailing commas
+csharp_space_after_comma = true
+csharp_space_before_comma = false
+csharp_space_after_dot = false
+csharp_space_before_dot = false
+
+# Semicolons
+csharp_space_after_semicolon_in_for_statement = true
+csharp_space_before_semicolon_in_for_statement = false
+
+# Arrow parens (for lambda expressions)
+csharp_space_around_binary_operators = before_and_after
+csharp_space_between_method_call_parameter_list_parentheses = true
+csharp_space_between_method_declaration_parameter_list_parentheses = false
+csharp_space_between_parentheses = true
